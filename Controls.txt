@@ -1,0 +1,76 @@
+BODYGUARD MOD - CONTROLS
+========================
+All keys can be changed in BodyguardMod.ini ([Keys] section).
+Mod keys are ignored in the pause menu, on the phone, in cutscenes, while loading and while dead.
+
+
+HOTKEYS
+-------
+F7    Open / close the menu
+J     Attack: aim at a person or a vehicle, then press J. Everyone goes after it.
+K     Regroup / cease fire. Everyone stops fighting and returns to you.
+L     Driver:
+        - no driver yet .............. calls your driver
+        - sitting in the back ........ drives to your map waypoint
+        - while he's driving you ..... toggles HURRY on/off (like a taxi)
+U     Guard helicopter crews rappel down to you
+F     Near your driver's car or the landed transport helicopter: get in the back
+
+
+MENU NAVIGATION
+---------------
+Up / Down     or  Numpad 8 / 2    Move
+Left / Right  or  Numpad 4 / 6    Change a value
+Enter         or  Numpad 5        Select
+Backspace     or  Numpad 0        Back / close
+The box under the menu explains the selected option.
+
+
+MENU PAGES
+----------
+Bodyguards      Model, count, Spawn, Dismiss All
+Weapons         Choose a weapon, give it to all guards
+Vehicle Follow  How guards who don't fit in your car follow you
+                (Escort Car / Nearby Cars / Auto), escort model, catch-up teleport
+Driver          Car, driver model, what he does when you get out
+                (Stay in car / Guard car / Follow you), Hurry,
+                Call driver, Go to waypoint, Stop / pull over, Dismiss driver
+Motorcade       Lead cars, rear cars, guards per car, car model, crew model,
+                When you drive (Lead to waypoint / Follow behind), Hurry (Off / On / Match driver),
+                Get out when you stop, Form motorcade, Disband
+Helicopters     Guard helis: model, count, Call, Rappel, Reinforce crew, Dismiss
+                Transport: model, escort helis, after drop-off (Wait / Leave),
+                Call pickup, Land now, Dismiss
+Orders          Attack aimed target, Regroup / cease fire, Rappel heli guards, Dismiss All
+Options         Invincible, Infinite ammo, Map blips, Auto-defend
+
+
+QUICK HOW-TO
+------------
+Driver
+  1. Press L (or Menu > Driver > Call driver). He drives up, honks and turns on his hazards.
+  2. Walk up (the rear door opens) and press F to get in the back.
+  3. Set a map waypoint. He drives you there. Press L during the trip to hurry.
+
+Transport helicopter
+  1. Stand in an open area. Menu > Helicopters > Call pickup.
+  2. When it lands, press F to board.
+  3. Set a map waypoint. It flies there and lands. Guard helis fly alongside.
+
+Rappel
+  1. Menu > Helicopters > Call guard helis. They circle over you.
+  2. Press U. They hover above you and the crews rope down and join you.
+
+Motorcade
+  1. Get in a car (or have your driver pick you up).
+  2. Menu > Motorcade > Form motorcade.
+     - With your driver + a waypoint: the lead car drives the route, your car follows it, rears follow you.
+     - Driving yourself: "Lead to waypoint" = a lead car drives to your waypoint and you follow it;
+       "Follow behind" (or no waypoint) = every car chains behind you.
+  3. Stop: everyone parks in formation at the curb. Guards stay in their cars unless there are hostiles
+     (or "Get out when you stop" is on). Walk away from your parked car: 2 cars stay to guard it, the rest
+     of the crews walk with you.
+
+Attacking a vehicle
+  Aim at a car and press J. Guards shoot the people inside; escort cars and
+  rear motorcade cars chase it. Press K to call everyone off.

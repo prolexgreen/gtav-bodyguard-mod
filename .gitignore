@@ -1,0 +1,26 @@
+# Build output
+build/
+out/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+!sdk/lib/.gitkeep
+
+# ScriptHookV SDK is not redistributable - download it from dev-c.com (see sdk/README.md)
+sdk/inc/
+sdk/lib/*
+sdk/samples/
+sdk/readme.txt
+
+# Local / editor
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
+
+# Not part of the project
+old_mod/
